@@ -18,7 +18,7 @@ export default async function handler(req, res) {
     const kommoPayload = [{
       "name": `Lead Marbella (${data.tag}) - ${data.name}`,
       "pipeline_id": 13739880,
-      "status_id": 103034083,
+      "status_id": 0,
       "_embedded": {
         "tags": tags.length > 0 ? tags : undefined,
         "contacts": [{
